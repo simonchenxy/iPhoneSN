@@ -16,13 +16,13 @@
       <tr>
         <td>生产日期</td>
         <td>
-          <span class="year">{{showItem.yearText}}</span><span class="month">{{showItem.monthText}}</span>
+          <span class="year">{{showItem.yearText}}</span>第<span class="month">{{showItem.monthText}}周</span>
         </td>
       </tr>
       <tr>
-        <td>颜色</td>
+        <td>日期</td>
         <td>
-          <span class="color">{{showItem.colorText}}</span>
+          <span class="color">{{showItem.dateText}}</span>
         </td>
       </tr>
     </table>
