@@ -34,24 +34,3 @@
     props:['showItem']
   }
 </script>
-
-<style scoped>
-  .showbox{
-    margin-top: 30px;
-  }
-  .showbox table{
-    width: 100%;
-    border: 1px solid #CACACA;
-  }
-  .showbox table tr:nth-child(2n+1){
-    background: #EDF1ED;
-
-  }
-  .showbox table tr td{
-    padding-left: 30px;
-    line-height: 40px;
-  }
-
-
-
-</style>
