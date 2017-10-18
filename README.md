@@ -1,4 +1,4 @@
-# iPhone SN
+# IPhone serial number query
 
 > A Vue.js project
 
