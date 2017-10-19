@@ -26,7 +26,7 @@ body{
   color: red;
 }
 .header form input[type="text"]{
-  width: 343px;
+  width: 333px;
   height: 50px;
   border-radius: 3px 0 0 3px;
   border: 1px solid #CACACA;
@@ -38,7 +38,7 @@ body{
 }
 
 .header form button{
-  width: 50px;
+  width: 60px;
   height: 50px;
   position: absolute;
   top: 0;
@@ -58,6 +58,13 @@ body{
   top: 14px;
   left: 10px;
   z-index: 2;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0
 }
 .showbox{
   margin-top: 30px;

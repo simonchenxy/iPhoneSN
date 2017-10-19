@@ -8,8 +8,10 @@
         <div class="wrong-number" v-if="emptyItem">{{emptyText}}</div>
       </form>
     </div>
+    <transition name="fade">
+      <show-box :showItem="dataList" v-if="isShow"></show-box>
+    </transition>
 
-    <show-box :showItem="dataList" v-if="isShow"></show-box>
 
   </div>
 </template>
