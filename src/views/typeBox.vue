@@ -9,7 +9,7 @@
       </form>
     </div>
 
-    <show-box :showItem="dataList" v-show="isShow"></show-box>
+    <show-box :showItem="dataList" v-if="isShow"></show-box>
 
   </div>
 </template>

@@ -16,7 +16,7 @@
       <tr>
         <td>生产日期</td>
         <td>
-          <span class="year">{{showItem.yearText}}</span>第<span class="month">{{showItem.monthText}}周</span>
+          <span class="year">{{showItem.yearText}} 第 </span><span class="month">{{showItem.monthText}} 周</span>
         </td>
       </tr>
       <tr>
